@@ -1,0 +1,239 @@
+Tool,counts
+ABBYY FineReader,2
+ANNIS,2
+ATLAS.ti,2
+Abbot,1
+Academia.edu,1
+Adobe After Effects,1
+Adobe Flash,1
+Adobe Illustrator,1
+Adobe InDesign,1
+Advene,1
+Alpheios,1
+Alveo,1
+Annotation Studio,6
+Annotorious,1
+AntConc,7
+Anthologize,1
+Anvil,1
+ArcGIS,12
+Archive-It,2
+AskSam,1
+Audacity,1
+AustESE,1
+Basecamp,1
+Beautiful Soup,1
+Blacklight,4
+Blender,3
+Bokeh,2
+Bookworm,4
+Bootstrap,14
+BuddyPress,1
+CATMA,5
+COBOL,1
+CONTENTdm,1
+CQPweb,3
+Carto | CartoDB,11
+Chart.js,1
+Chrome,7
+Chronos Timeline,1
+CollateX,18
+Collex,1
+ColorBrewer,1
+Commons In A Box,3
+Confluence,1
+Cytoscape,6
+D3.js,23
+DH Press,1
+DSpace,2
+Dataverse,2
+Dedoose,1
+DiRT Directory,2
+Diva.js,2
+Dropbox,4
+Drupal,19
+EATS,2
+EEBO-TCP,15
+ELAN,3
+EVI-LINHD,1
+EndNote,1
+Evernote,1
+Excel,30
+Exhibit 3.0,1
+FAIMS Mobile Platform,1
+Fedora Commons,2
+Finale,1
+Firefox,7
+Freebase,4
+FromThePage,2
+GAMS,8
+GATE,6
+Gamera,2
+GapVis,1
+GeoNames,18
+GeoTemCo,1
+Gephi,60
+GitHub,40
+Google Books,31
+Google Docs,1
+Google Drive,3
+Google Maps,13
+Google Ngram Viewer,4
+Google Scholar,5
+Graphviz,1
+H-Net,1
+HathiTrust,37
+HyperImage,1
+HyperPo,1
+Hypothes.is,8
+IRaMuTeQ,1
+Icon,1
+ImageJ,2
+ImagePlot,1
+Inkscape,2
+IsaViz,1
+Islandora,2
+JGAAP,4
+JavaScript,59
+Jekyll,8
+Joomla,2
+Juxta,10
+KORA,1
+KWIC,10
+Koha,1
+LIWC | Linguistic Inquiry and Word Count,5
+Leaflet,14
+Lexomics,1
+Lexos,6
+LilyPond,1
+LimeSurvey,1
+LodLive,1
+Lucene,7
+MALLET,33
+MAXQDA,2
+Map Warper,2
+Matlab,2
+MediaWiki,8
+Mediathread,1
+Mendeley,1
+MorphAdorner,2
+Mukurtu CMS,1
+MuseScore,1
+Music Encoding Initiative,12
+MySQL,27
+NVivo,1
+Natural Language Toolkit | NLTK,23
+NeOn Toolkit,1
+Neatline,9
+Neo4j,6
+NetDraw,1
+NetworkX,3
+NodeXL,3
+Old Maps Online,1
+Omeka,44
+OmniPage,1
+OntoViz,1
+OpenLayers,1
+OpenRefine,14
+OpenStreetMap,7
+Oral History Metadata Synchronizer,4
+OxGarage,3
+Palladio,15
+Pandoc,2
+Paper Machines,2
+Perl,10
+PhiloLine,3
+PhiloLogic,2
+Photogrammar,6
+Pliny,1
+PostgreSQL,15
+Prefuse,1
+Prism,1
+Pro Tools,1
+ProcessingJS,1
+Project Quincy,1
+Prolog,1
+Protovis,2
+Protégé,4
+Pundit,7
+PyDelta,1
+Python,125
+QGIS,5
+RDF Gravity,1
+RStudio,3
+Recogito,8
+RelFinder,2
+RoSE,2
+Ruby | Ruby on Rails,8
+SARIT,1
+Scripto,1
+SemLens,1
+Serendip,1
+Serendip-o-matic,1
+Sibelius,1
+Skype,3
+Slack,2
+Solr,17
+Spotify,2
+StoryMapJS,1
+SylvaDB,2
+T-PEN,2
+TAPoR,2
+TEI Boilerplate,6
+TILE,3
+TRACER,7
+TRAViz,2
+TUSTEP,1
+TXM,18
+Tableau | Tableau Public,8
+Tesseract,13
+Tesserae,7
+TextGrid,19
+TextRazor,1
+Textable,1
+Textal,1
+Textexture,1
+Textual Communities,4
+TileMill,3
+Transana,1
+Transkribus,12
+Trello,1
+Tropy,3
+Tumblr,4
+Twitter,82
+TypeWright,2
+UIMA,2
+VARD | VARD 2,4
+VIVO,1
+VSim,2
+Versioning Machine,3
+VexFlow,1
+Visual Browser,1
+VisualEyes,1
+Voyant Tools,17
+Wavesurfer,1
+WebLicht,6
+Weka,4
+Wiki Map Project,1
+WordCruncher,1
+WordHoard,1
+WordPress,20
+WordSmith,4
+Wordle,4
+WorldCat,6
+YAGO,1
+Zenodo,7
+Zotero,14
+arts-humanities.net,2
+eLaborate,1
+eXist-db,13
+ediarum,2
+ezlinavis,1
+gFacet,1
+igraph,2
+jsLDA,1
+music21,1
+nodegoat,4
+oXygen,2
+stylo,35
+tFacet,1
