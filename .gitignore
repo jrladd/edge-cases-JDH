@@ -1,6 +1,6 @@
 **/.ipynb_checkpoint/
 **/.ipynb_checkpoints/
 .DS_Store
-**/datasets/private_data/
 *.pyc
 **/env/
+**private_data**
