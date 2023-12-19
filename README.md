@@ -6,3 +6,11 @@ This is the abstract dummy text. Lorem Ipsum is simply dummy text of the printin
 
 # Keywords
 example, dummy text, lorem ipsum
+
+## Installation Instructions
+
+This notebook relies on the following packages:
+- `cite2c==2.31.0` for citation
+- `jupyter-contrib-nbextensions==0.5.1` for table of contents
+
+These dependencies require Python 3.6 to 3.8, so you will likely need to revert your Python version to run this notebook. This also causes a number of dependency conflicts, so we recommend using a virtual environment to run this notebook.
