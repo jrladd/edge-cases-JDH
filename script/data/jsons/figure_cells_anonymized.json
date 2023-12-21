@@ -1,0 +1,97 @@
+[
+    {
+        "cell_index": 16,
+        "tag": "figure-whatisdh-tools-*",
+        "source": ["Frequency of 'Tool' in Quotes From whatisdigitalhumanities.com and Day of DH'"]
+    },
+    {
+        "cell_index": 19,
+        "tag": "figure-wordcloud-*",
+        "source": ["Word cloud of all quotes from whatisdigitalhumanities.com and Day of DH, with the word \"tool\" highlighted in red"]
+    },
+    {
+        "cell_index": 37,
+        "tag": "figure-network-tools-over-time-chart-*",
+        "source": ["Popularity of Network Analysis Tools Over Time and Across Multiple Datasets"]
+    },
+    {
+        "cell_index": 40,
+        "tag": "figure-relatie-popularity-chart-*",
+        "source": ["Ranking of Most Popular Network Analysis Tools Relative to Other DH Tools Across Multiple Datasets"]
+    },
+    {
+        "cell_index": 44,
+        "tag": "figure-nn-chart-*",
+        "source": ["History of Network Navigator via GitHub"]
+    },
+    {
+        "cell_index": 48,
+        "tag": "figure-nn-homepage-*",
+        "source": ["Current homepage of Network Navigator"]
+    },
+    {
+        "cell_index": 50,
+        "tag": "figure-nn-original-homepage-*",
+        "source": ["Original homepage of Network Navigator. Screenshot from https://web.archive.org/web/20190812053719/dh-web.hss.cmu.edu/network_navigator/"]
+    },
+    {
+        "cell_index": 52,
+        "tag": "figure-nn-first-commit-repo-*",
+        "source": ["Original files in the Network Navigator GitHub Repository. First commit on August 8, 2017. Screenshot from (redacted for peer review)"]
+    },
+    {
+        "cell_index": 63,
+        "tag": "figure-infrastructure-tool-chart-*",
+        "source": ["Popularity of the Term 'Infrastructure' Over Time and Across Multiple Datasets"]
+    },
+    {
+        "cell_index": 70,
+        "tag": "figure-network-analysis-chart-*",
+        "source": ["Popularity of the Term 'Network Analysis' Over Time and Across Multiple Datasets"]
+    },
+    {
+        "cell_index": 80,
+        "tag": "figure-tool-algorithmic-criticism-chart-*",
+        "source": ["Popularity of the Term 'Algorithmic Criticism' Over Time and Across Multiple Datasets"]
+    },
+    {
+        "cell_index": 85,
+        "tag": "figure-nn-feature-wishlist-*",
+        "source": ["First Issue in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"]
+    },
+    {
+        "cell_index": 93,
+        "tag": "figure-nn-first-commit-*",
+        "source": ["First Commit in the Network Navigator GitHub Repository, showing the HTML for the first metrics table. Screenshot from (redacted for peer review)"]
+    },
+    {
+        "cell_index": 95,
+        "tag": "figure-networkx-graph-*",
+        "source": ["Example networkx graph"]
+    },
+    {
+        "cell_index": 97,
+        "tag": "figure-nn-commit-list-*",
+        "source": ["List of Early Commits in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"]
+    },
+    {
+        "cell_index": 99,
+        "tag": "figure-nn-october-meeting-*",
+        "source": ["Notes from Oct. 20th Meeting in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"]
+    },
+    {
+        "cell_index": 102,
+        "tag": "figure-select-viz-*",
+        "source": ["Changing visualization types in Network Navigator 2.0"]
+    },
+    {
+        "cell_index": 104,
+        "tag": "figure-attribute-filter-*",
+        "source": ["Filtering by edge attribute in Network Navigator 2.0"]
+    },
+    {
+        "cell_index": 106,
+        "tag": "figure-customize-*",
+        "source": ["Customizing force layout graphs in Network Navigator 2.0"]
+    }
+]
