@@ -83,7 +83,7 @@ def find_figure_cells(notebook_filename, output_filename, rerun_code=False):
         for cell_index, cell in enumerate(notebook.cells):
             if 'metadata' in cell and 'tags' in cell['metadata']:
                 for tag in cell['metadata']['tags']:
-                    if 'figure' in tag:
+                    if ('figure' in tag) or ('table' in tag):
                         # Add cell index and tag to the list
                         figure_cells.append({"cell_index": cell_index, "tag": tag, "source": []})
 
@@ -111,13 +111,14 @@ if __name__ == '__main__':
         ]
     }
     """
-    # Example usage for adding metadata to article-text.ipynb
-    ## Generate lists of cells that need sources based on tags
-    # figure_cells = find_figure_cells('../article-text.ipynb', 'data/jsons/figure_cells.json')
-    ## Once manually added sources, add metadata to cells
-    # add_metadata_to_notebook('../article-text.ipynb', figure_cells)
-    # Example usage for anonymizing article-text.ipynb
-
+    #Example usage for adding metadata to article-text.ipynb
+    # Generate lists of cells that need sources based on tags
+    figure_cells = find_figure_cells('../article-text.ipynb', 'data/jsons/figure_cells.json')
+    # Once manually added sources, add metadata to cells
+    add_metadata_to_notebook('../article-text.ipynb', figure_cells)
+    add_metadata_to_notebook('../article-text-partial-anonymous.ipynb', figure_cells)
+    
+    #Example usage for anonymizing article-text.ipynb
     ## Generate lists of cells that need sources based on tags
     figure_cells = find_figure_cells('../article-text-fully-anonymized.ipynb', 'data/jsons/figure_cells.json')
     # Once manually added sources, add metadata to cells

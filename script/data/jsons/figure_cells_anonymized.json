@@ -60,6 +60,11 @@
         "source": ["First Issue in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"]
     },
     {
+        "cell_index": 89,
+        "tag": "table-six-degrees-*",
+        "source": ["Table of Example Six Degrees of Francis Bacon data"]
+    },
+    {
         "cell_index": 93,
         "tag": "figure-nn-first-commit-*",
         "source": ["First Commit in the Network Navigator GitHub Repository, showing the HTML for the first metrics table. Screenshot from (redacted for peer review)"]
