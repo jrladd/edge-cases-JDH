@@ -1,5 +1,13 @@
 [
     {
+        "cell_index": 4,
+        "tag": "cover",
+        "source": [
+            "Cover image for article. Generated using Canva's AI Tool with the terms network analysis, digital humanities, and tools."
+        ],
+        "type": "image"
+    },
+    {
         "cell_index": 16,
         "tag": "figure-whatisdh-tools-*",
         "source": ["Frequency of 'Tool' in Quotes From whatisdigitalhumanities.com and Day of DH'"]
@@ -7,7 +15,8 @@
     {
         "cell_index": 19,
         "tag": "figure-wordcloud-*",
-        "source": ["Word cloud of all quotes from whatisdigitalhumanities.com and Day of DH, with the word \"tool\" highlighted in red"]
+        "source": ["Word cloud of all quotes from whatisdigitalhumanities.com and Day of DH, with the word \"tool\" highlighted in red"],
+        "type": "image"
     },
     {
         "cell_index": 37,
@@ -27,17 +36,20 @@
     {
         "cell_index": 48,
         "tag": "figure-nn-homepage-*",
-        "source": ["Current homepage of Network Navigator"]
+        "source": ["Current homepage of Network Navigator"],
+        "type": "image"
     },
     {
         "cell_index": 50,
         "tag": "figure-nn-original-homepage-*",
-        "source": ["Original homepage of Network Navigator. Screenshot from https://web.archive.org/web/20190812053719/dh-web.hss.cmu.edu/network_navigator/"]
+        "source": ["Original homepage of Network Navigator. Screenshot from https://web.archive.org/web/20190812053719/dh-web.hss.cmu.edu/network_navigator/"],
+        "type": "image"
     },
     {
         "cell_index": 52,
         "tag": "figure-nn-first-commit-repo-*",
-        "source": ["Original files in the Network Navigator GitHub Repository. First commit on August 8, 2017. Screenshot from (redacted for peer review)"]
+        "source": ["Original files in the Network Navigator GitHub Repository. First commit on August 8, 2017. Screenshot from (redacted for peer review)"],
+        "type": "image"
     },
     {
         "cell_index": 63,
@@ -57,7 +69,8 @@
     {
         "cell_index": 85,
         "tag": "figure-nn-feature-wishlist-*",
-        "source": ["First Issue in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"]
+        "source": ["First Issue in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"],
+        "type": "image"
     },
     {
         "cell_index": 89,
@@ -67,7 +80,8 @@
     {
         "cell_index": 93,
         "tag": "figure-nn-first-commit-*",
-        "source": ["First Commit in the Network Navigator GitHub Repository, showing the HTML for the first metrics table. Screenshot from (redacted for peer review)"]
+        "source": ["First Commit in the Network Navigator GitHub Repository, showing the HTML for the first metrics table. Screenshot from (redacted for peer review)"],
+        "type": "image"
     },
     {
         "cell_index": 95,
@@ -77,26 +91,31 @@
     {
         "cell_index": 97,
         "tag": "figure-nn-commit-list-*",
-        "source": ["List of Early Commits in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"]
+        "source": ["List of Early Commits in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"],
+        "type": "image"
     },
     {
         "cell_index": 99,
         "tag": "figure-nn-october-meeting-*",
-        "source": ["Notes from Oct. 20th Meeting in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"]
+        "source": ["Notes from Oct. 20th Meeting in the Network Navigator GitHub Repository. Screenshot from (redacted for peer review)"],
+        "type": "image"
     },
     {
         "cell_index": 102,
         "tag": "figure-select-viz-*",
-        "source": ["Changing visualization types in Network Navigator 2.0"]
+        "source": ["Changing visualization types in Network Navigator 2.0"],
+        "type": "image"
     },
     {
         "cell_index": 104,
         "tag": "figure-attribute-filter-*",
-        "source": ["Filtering by edge attribute in Network Navigator 2.0"]
+        "source": ["Filtering by edge attribute in Network Navigator 2.0"],
+        "type": "image"
     },
     {
         "cell_index": 106,
         "tag": "figure-customize-*",
-        "source": ["Customizing force layout graphs in Network Navigator 2.0"]
+        "source": ["Customizing force layout graphs in Network Navigator 2.0"],
+        "type": "image"
     }
 ]

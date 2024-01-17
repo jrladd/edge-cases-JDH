@@ -1,5 +1,11 @@
 [
     {
+        "cell_index": 4,
+        "tag": "cover",
+        "source": ["Cover image for article. Generated using Canva's AI Tool with the terms network analysis, digital humanities, and tools."],
+        "type": "image"
+    },
+    {
         "cell_index": 16,
         "tag": "figure-whatisdh-tools-*",
         "source": ["Frequency of 'Tool' in Quotes From whatisdigitalhumanities.com and Day of DH'"]
@@ -7,7 +13,8 @@
     {
         "cell_index": 19,
         "tag": "figure-wordcloud-*",
-        "source": ["Word cloud of all quotes from whatisdigitalhumanities.com and Day of DH, with the word \"tool\" highlighted in red"]
+        "source": ["Word cloud of all quotes from whatisdigitalhumanities.com and Day of DH, with the word \"tool\" highlighted in red"],
+        "type": "image"
     },
     {
         "cell_index": 37,
@@ -27,17 +34,20 @@
     {
         "cell_index": 48,
         "tag": "figure-nn-homepage-*",
-        "source": ["Current homepage of Network Navigator"]
+        "source": ["Current homepage of Network Navigator"],
+        "type": "image"
     },
     {
         "cell_index": 50,
         "tag": "figure-nn-original-homepage-*",
-        "source": ["Original homepage of Network Navigator. Screenshot from https://web.archive.org/web/20190812053719/dh-web.hss.cmu.edu/network_navigator/"]
+        "source": ["Original homepage of Network Navigator. Screenshot from https://web.archive.org/web/20190812053719/dh-web.hss.cmu.edu/network_navigator/"],
+        "type": "image"
     },
     {
         "cell_index": 52,
         "tag": "figure-nn-first-commit-repo-*",
-        "source": ["Original files in the Network Navigator GitHub Repository. First commit on August 8, 2017. Screenshot from https://github.com/jrladd/network_navigator/tree/10ad7fd45831980980d26bdacc2913a2fb1fb23c"]
+        "source": ["Original files in the Network Navigator GitHub Repository. First commit on August 8, 2017. Screenshot from https://github.com/jrladd/network_navigator/tree/10ad7fd45831980980d26bdacc2913a2fb1fb23c"],
+        "type": "image"
     },
     {
         "cell_index": 63,
@@ -57,7 +67,8 @@
     {
         "cell_index": 85,
         "tag": "figure-nn-feature-wishlist-*",
-        "source": ["First Issue in the Network Navigator GitHub Repository. Screenshot from https://github.com/jrladd/network_navigator/issues/2"]
+        "source": ["First Issue in the Network Navigator GitHub Repository. Screenshot from https://github.com/jrladd/network_navigator/issues/2"],
+        "type": "image"
     },
     {
         "cell_index": 89,
@@ -67,7 +78,8 @@
     {
         "cell_index": 93,
         "tag": "figure-nn-first-commit-*",
-        "source": ["First Commit in the Network Navigator GitHub Repository, showing the HTML for the first metrics table. Screenshot from https://github.com/jrladd/network_navigator/commit/10ad7fd45831980980d26bdacc2913a2fb1fb23c#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051"]
+        "source": ["First Commit in the Network Navigator GitHub Repository, showing the HTML for the first metrics table. Screenshot from https://github.com/jrladd/network_navigator/commit/10ad7fd45831980980d26bdacc2913a2fb1fb23c#diff-0eb547304658805aad788d320f10bf1f292797b5e6d745a3bf617584da017051"],
+        "type": "image"
     },
     {
         "cell_index": 95,
@@ -77,26 +89,31 @@
     {
         "cell_index": 97,
         "tag": "figure-nn-commit-list-*",
-        "source": ["List of Early Commits in the Network Navigator GitHub Repository. Screenshot from https://github.com/jrladd/network_navigator/commits/master/?after=1710da0d54e4bf34cc28cd58cc788b4646f5657b+209"]
+        "source": ["List of Early Commits in the Network Navigator GitHub Repository. Screenshot from https://github.com/jrladd/network_navigator/commits/master/?after=1710da0d54e4bf34cc28cd58cc788b4646f5657b+209"],
+        "type": "image"
     },
     {
         "cell_index": 99,
         "tag": "figure-nn-october-meeting-*",
-        "source": ["Notes from Oct. 20th Meeting in the Network Navigator GitHub Repository. Screenshot from https://github.com/jrladd/network_navigator/issues/5"]
+        "source": ["Notes from Oct. 20th Meeting in the Network Navigator GitHub Repository. Screenshot from https://github.com/jrladd/network_navigator/issues/5"],
+        "type": "image"
     },
     {
         "cell_index": 102,
         "tag": "figure-select-viz-*",
-        "source": ["Changing visualization types in Network Navigator 2.0"]
+        "source": ["Changing visualization types in Network Navigator 2.0"],
+        "type": "image"
     },
     {
         "cell_index": 104,
         "tag": "figure-attribute-filter-*",
-        "source": ["Filtering by edge attribute in Network Navigator 2.0"]
+        "source": ["Filtering by edge attribute in Network Navigator 2.0"],
+        "type": "image"
     },
     {
         "cell_index": 106,
         "tag": "figure-customize-*",
-        "source": ["Customizing force layout graphs in Network Navigator 2.0"]
+        "source": ["Customizing force layout graphs in Network Navigator 2.0"],
+        "type": "image"
     }
 ]
