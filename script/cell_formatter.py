@@ -113,10 +113,10 @@ if __name__ == '__main__':
     """
     #Example usage for adding metadata to article-text.ipynb
     # Generate lists of cells that need sources based on tags
-    figure_cells = find_figure_cells('../article-text.ipynb', 'data/jsons/figure_cells.json')
-    # Once manually added sources, add metadata to cells
-    add_metadata_to_notebook('../article-text.ipynb', figure_cells)
-    add_metadata_to_notebook('../article-text-partial-anonymous.ipynb', figure_cells)
+    # figure_cells = find_figure_cells('../article-text.ipynb', 'data/jsons/figure_cells.json')
+    # # Once manually added sources, add metadata to cells
+    # add_metadata_to_notebook('../article-text.ipynb', figure_cells)
+    # add_metadata_to_notebook('../article-text-partial-anonymous.ipynb', figure_cells)
     
     #Example usage for anonymizing article-text.ipynb
     ## Generate lists of cells that need sources based on tags
