@@ -2,7 +2,7 @@ import json
 import nbformat
 import os
 import re
-from typing import List, Union
+from typing import List, Optional, Dict
 
 def anonymize_notebook(notebook_filename: str):
     """
@@ -15,7 +15,7 @@ def anonymize_notebook(notebook_filename: str):
     
     """
     # Load the notebook
-    with open(notebook_filename, "r") as file:
+    with open(notebook_filename, "r", encoding="utf-8") as file:
         notebook = nbformat.read(file, as_version=4)
 
     # Regular expressions for matching
@@ -35,7 +35,7 @@ def anonymize_notebook(notebook_filename: str):
                 cell.source = re.sub(pattern, replacement, cell.source)
 
     # Save the anonymized notebook
-    with open(notebook_filename, 'w') as file:
+    with open(notebook_filename, 'w', encoding="utf-8") as file:
         nbformat.write(notebook, file)
 
 # Function to load source descriptions from a JSON file
@@ -53,11 +53,11 @@ def load_source_descriptions(filename: str) -> List:
     list
         A list of source descriptions, with types and tags
     """
-    with open(filename, 'r') as file:
+    with open(filename, 'r', encoding="utf-8") as file:
         return json.load(file)
 
 # Function to check if a tag matches any of the source description keys
-def tag_matches_sources(tag: str, cells: List) -> dict or None:
+def tag_matches_sources(tag: str, cells: List) -> Optional[Dict]:
     """
     Check if a tag matches any of the source description keys
 
@@ -94,7 +94,7 @@ def add_metadata_to_notebook(notebook_filename: str, sources: List):
         A list of source descriptions, with types and tags
     """
     # Load the notebook
-    with open(notebook_filename, 'r') as file:
+    with open(notebook_filename, 'r', encoding="utf-8") as file:
         notebook = nbformat.read(file, as_version=4)
 
     # Iterate through each cell
@@ -115,12 +115,12 @@ def add_metadata_to_notebook(notebook_filename: str, sources: List):
                         cell['metadata']['jdh']["module"] = "object"
 
     # Save the updated notebook
-    with open(notebook_filename, 'w') as file:
+    with open(notebook_filename, 'w', encoding="utf-8") as file:
         nbformat.write(notebook, file)
 
 
 # Function to find all cells with tags containing the word "figure"
-def find_figure_cells(notebook_filename: str, output_filename: str, rerun_code: bool = False) -> List[dict] or None:
+def find_figure_cells(notebook_filename: str, output_filename: str, rerun_code: bool = False) -> Optional[List]:
     """
     Find all cells with tags containing the word "figure"
 
@@ -142,7 +142,7 @@ def find_figure_cells(notebook_filename: str, output_filename: str, rerun_code: 
         figure_cells = load_source_descriptions(output_filename)
     else:
         # Load the notebook
-        with open(notebook_filename, 'r') as file:
+        with open(notebook_filename, 'r', encoding="utf-8") as file:
             notebook = nbformat.read(file, as_version=4)
 
         figure_cells = []
@@ -156,13 +156,11 @@ def find_figure_cells(notebook_filename: str, output_filename: str, rerun_code: 
                         figure_cells.append({"cell_index": cell_index, "tag": tag, "source": []})
 
         # Save the figure cells list to a JSON file
-        with open(output_filename, 'w') as outfile:
+        with open(output_filename, 'w', encoding="utf-8") as outfile:
             json.dump(figure_cells, outfile, indent=4)
     return figure_cells
 
 if __name__ == '__main__':
-
-
     """Example usage
     "metadata": {
         "jdh": {
