@@ -161,8 +161,6 @@ def find_figure_cells(notebook_filename: str, output_filename: str, rerun_code: 
     return figure_cells
 
 if __name__ == '__main__':
-
-
     """Example usage
     "metadata": {
         "jdh": {
